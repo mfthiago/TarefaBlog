@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visualização do Post</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Blog de Tecnologia</div>
+        <div class="categories">
+          <button onclick="filterPosts('Categoria 1')">Categoria 1</button>
+          <button onclick="filterPosts('Categoria 2')">Categoria 2</button>
+          <button onclick="filterPosts('Categoria 3')">Categoria 3</button>
+          <button onclick="filterPosts('Categoria 4')">Categoria 4</button>
+        </div>
+      </nav>
+    </header>
+    <nav>
+      <a href="index.html">Voltar para a Página Inicial</a>
+    </nav>
+    <main>
+      <div id="post-content">
+        <!-- O conteúdo do post será inserido aqui via JavaScript -->
+      </div>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
